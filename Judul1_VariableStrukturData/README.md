@@ -6,4 +6,5 @@ Program ini merupakan implementasi struktur data linked list dalam studi kasus a
 
 Struktur data yang digunakan adalah singly linked list, di mana setiap elemen (node) memiliki data dan referensi ke node berikutnya. Sistem ini menerapkan konsep FIFO (First In First Out), yaitu data yang masuk terlebih dahulu akan diproses terlebih dahulu. Operasi utama dalam program ini meliputi penambahan antrian (enqueue), penghapusan antrian (dequeue), melihat antrian terdepan (peek), menampilkan seluruh antrian (display), dan menghitung jumlah antrian.
 ## c. Source Code
-<img width="750" height="714" alt="Screenshot 2026-04-29 202628" src="https://github.com/user-attachments/assets/d73348fc-3e1e-45c8-a19d-bff3669a24a3" />
+![Uploading 2515061060_Muhammad Nabil Al Kaysan_Praktikum SD_TA 1.py.png…]()
+
