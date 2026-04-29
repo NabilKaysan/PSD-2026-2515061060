@@ -9,11 +9,7 @@ Struktur data yang digunakan adalah singly linked list, di mana setiap elemen (n
 <img width="2032" height="7542" alt="2515061060_Muhammad Nabil Al Kaysan_Praktikum SD_TA 1 py" src="https://github.com/user-attachments/assets/cb7e616c-ced2-4d5c-b8ef-c022c528780b" />
 
 ### 1. Class Node
-
 Class Node digunakan untuk merepresentasikan satu elemen dalam linked list.
 Setiap node memiliki:
 nomor → nomor antrian
 nama → nama pemohon
-jenis_sim → jenis SIM
-next → pointer ke node berikutnya
-
