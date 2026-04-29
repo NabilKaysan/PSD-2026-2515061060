@@ -11,7 +11,6 @@ Struktur data yang digunakan adalah singly linked list, di mana setiap elemen (n
 ### 1. Class Node
 * `class Node:`
   * Mendefinisikan class Node sebagai elemen dasar dalam linked list.
-    
 * `def __init__(self, nomor, nama, jenis_sim):`
   * Constructor untuk menginisialisasi data pada node.
 * `self.nomor = nomor`
@@ -95,21 +94,15 @@ Struktur data yang digunakan adalah singly linked list, di mana setiap elemen (n
 * `print(f"Jenis SIM     : {self.head.jenis_sim}")`
   * Menampilkan data node paling depan.
 ### 7. Fungsi display()
-    def display(self):
-
-Fungsi untuk menampilkan seluruh antrian.
-
-        if self.is_empty():
-            print("Antrian kosong.")
-            return
-
-Jika kosong, tampilkan pesan.
-
-        print("\n=== DAFTAR ANTRIAN PELAYANAN SIM ===")
-
-Menampilkan judul daftar antrian.
-
-        current = self.head
+* `def display(self):`
+  * Fungsi untuk menampilkan seluruh antrian.
+* `if self.is_empty():`
+    * `print("Antrian kosong.")`
+    * `return`
+* Jika kosong, tampilkan pesan.
+* `print("\n=== DAFTAR ANTRIAN PELAYANAN SIM ===")`
+  * Menampilkan judul daftar antrian.
+current = self.head
 
 Menentukan node awal.
 
