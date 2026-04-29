@@ -10,9 +10,9 @@ Struktur data yang digunakan adalah singly linked list, di mana setiap elemen (n
 
 ### 1. Class Node
 * `class Node:`
-  * Mendefinisikan class Node sebagai elemen dasar dalam linked list
+  * Mendefinisikan class Node sebagai elemen dasar dalam linked list.
 * `def __init__(self, nomor, nama, jenis_sim):`
-  * Constructor untuk menginisialisasi data pada node
+  * Constructor untuk menginisialisasi data pada node.
 * `self.nomor = nomor`
   * Menyimpan nomor antrian.
 * `self.nama = nama`
@@ -21,3 +21,249 @@ Struktur data yang digunakan adalah singly linked list, di mana setiap elemen (n
   * Menyimpan jenis SIM yang diajukan.
 * `self.next = None`
   * Pointer ke node berikutnya, awalnya bernilai None.
+### 2. Class AntrianSIM
+* `class AntrianSIM:`
+  * Mendefinisikan class untuk mengelola sistem antrian.
+* `def __init__(self):`
+  * Constructor untuk inisialisasi antrian.
+* `self.head = None`
+  * Menunjuk node pertama (antrian depan).
+* `self.tail = None`
+  * Menunjuk node terakhir (antrian belakang).
+* `self.total = 0`
+  * Menyimpan jumlah total nomor antrian yang pernah dibuat.
+### 3. Fungsi is_empty()
+* `def is_empty(self):`
+  * Fungsi untuk mengecek apakah antrian kosong.
+* `return self.head is None`
+  * Mengembalikan nilai True jika antrian kosong.
+### 4. Fungsi enqueue()
+* `def enqueue(self, nama, jenis_sim):`
+  * Fungsi untuk menambahkan data ke antrian.
+* `self.total += 1`
+  * Menambahkan nomor antrian.
+* `node_baru = Node(self.total, nama, jenis_sim)`
+  * Membuat node baru dengan data pemohon.
+* `if self.is_empty():`
+  * Mengecek apakah antrian kosong.
+* `self.head = node_baru`
+* `self.tail = node_baru`
+  * Jika kosong, node baru menjadi head dan tail.
+* `else:`
+* `self.tail.next = node_baru`
+  * Jika tidak kosong, Menghubungkan node terakhir dengan node baru.
+* `self.tail = node_baru`
+  * Memindahkan tail ke node baru.
+* `print(f"Antrian berhasil ditambahkan. Nomor antrian: {node_baru.nomor}")`
+  * Menampilkan pesan bahwa data berhasil ditambahkan.
+### 5. Fungsi dequeue()
+* `def dequeue(self):`
+  * Fungsi untuk menghapus data dari depan antrian.
+* `if self.is_empty():`
+  * Mengecek apakah antrian kosong.
+* `print("Antrian kosong. Tidak ada peserta yang bisa dilayani.")`
+* `return`
+  * Jika kosong, tampilkan pesan dan keluar dari fungsi.
+* `data_keluar = self.head`
+  * Menyimpan node yang akan dihapus.
+* `self.head = self.head.next`
+  * Memindahkan head ke node berikutnya.
+* `if self.head is None:`
+  * Jika setelah penghapusan antrian kosong.
+* `self.tail = None`
+  * Set tail menjadi None.
+* `print("\n=== PELAYANAN SIM ===")`
+  * Menampilkan judul output pelayanan.
+* `print(f"Nomor Antrian : {data_keluar.nomor}")`
+* `print(f"Nama          : {data_keluar.nama}")`
+* `print(f"Jenis SIM     : {data_keluar.jenis_sim}")`
+  * Menampilkan data pemohon yang dilayani.
+* `print("Status        : Telah dilayani")`
+  * Menampilkan status pelayanan.
+### 6. Fungsi peek()
+* `def peek(self):`
+  * Fungsi untuk melihat data terdepan tanpa menghapus.
+* `if self.is_empty():`
+    * `print("Antrian masih kosong.")`
+  * Jika kosong, tampilkan pesan.
+* `else:`
+ * `print("\nAntrian terdepan:")`
+  * Jika tidak kosong, Menampilkan judul.
+* `print(f"Nomor Antrian : {self.head.nomor}")`
+* `print(f"Nama          : {self.head.nama}")`
+* `print(f"Jenis SIM     : {self.head.jenis_sim}")`
+  * Menampilkan data node paling depan.
+### 7. Fungsi display()
+    def display(self):
+
+Fungsi untuk menampilkan seluruh antrian.
+
+        if self.is_empty():
+            print("Antrian kosong.")
+            return
+
+Jika kosong, tampilkan pesan.
+
+        print("\n=== DAFTAR ANTRIAN PELAYANAN SIM ===")
+
+Menampilkan judul daftar antrian.
+
+        current = self.head
+
+Menentukan node awal.
+
+        while current is not None:
+
+Melakukan traversal selama node masih ada.
+
+            print(f"[{current.nomor}] {current.nama} - SIM {current.jenis_sim}")
+
+Menampilkan data node saat ini.
+
+            current = current.next
+
+Berpindah ke node berikutnya.
+
+8. Fungsi jumlah_antrian()
+    def jumlah_antrian(self):
+
+Fungsi untuk menghitung jumlah antrian.
+
+        count = 0
+
+Inisialisasi penghitung.
+
+        current = self.head
+
+Mulai dari node pertama.
+
+        while current is not None:
+            count += 1
+            current = current.next
+
+Menelusuri seluruh node dan menghitung jumlahnya.
+
+        print(f"Jumlah antrian saat ini: {count}")
+
+Menampilkan jumlah antrian.
+
+9. Fungsi menu()
+def menu():
+
+Fungsi untuk menampilkan menu.
+
+    print("\n===== MENU ANTRIAN PELAYANAN SIM =====")
+    print("1. Tambah antrian")
+    print("2. Layani antrian")
+    print("3. Lihat antrian terdepan")
+    print("4. Tampilkan seluruh antrian")
+    print("5. Jumlah antrian")
+    print("6. Keluar")
+
+Menampilkan daftar pilihan menu.
+
+10. Fungsi main()
+def main():
+
+Fungsi utama program.
+
+    antrian = AntrianSIM()
+
+Membuat objek antrian.
+
+    while True:
+
+Perulangan program.
+
+        menu()
+
+Menampilkan menu.
+
+        try:
+            pilihan = int(input("Pilih menu: "))
+
+Mengambil input dari user.
+
+        except ValueError:
+            print("Input harus berupa angka.")
+            continue
+
+Menangani error jika input bukan angka.
+
+11. Percabangan Menu
+
+Tambah Antrian
+
+        if pilihan == 1:
+
+Jika memilih tambah antrian.
+
+            nama = input("Masukkan nama pemohon: ").strip()
+            jenis_sim = input("Masukkan jenis SIM (A/C/D): ").strip().upper()
+
+Mengambil input data.
+
+            if nama == "":
+                print("Nama tidak boleh kosong.")
+                continue
+
+Validasi nama.
+
+            if jenis_sim not in ["A", "C", "D"]:
+                print("Jenis SIM harus A, C, atau D.")
+                continue
+
+Validasi jenis SIM.
+
+            antrian.enqueue(nama, jenis_sim)
+
+Menambahkan data ke antrian.
+
+Layani Antrian
+
+        elif pilihan == 2:
+            antrian.dequeue()
+
+Menghapus antrian terdepan.
+
+Lihat Antrian
+
+        elif pilihan == 3:
+            antrian.peek()
+
+Menampilkan antrian terdepan.
+
+Tampilkan Semua
+
+        elif pilihan == 4:
+            antrian.display()
+
+Menampilkan seluruh antrian.
+
+Jumlah Antrian
+
+        elif pilihan == 5:
+            antrian.jumlah_antrian()
+
+Menampilkan jumlah antrian.
+
+Keluar
+
+        elif pilihan == 6:
+            print("Program selesai.")
+            break
+
+Menghentikan program.
+
+Pilihan Tidak Valid
+
+        else:
+            print("Pilihan tidak valid.")
+
+Menangani input yang salah.
+
+12. Eksekusi Program
+if __name__ == "__main__":
+    main()
+
+Menjalankan fungsi utama saat file dieksekusi.
