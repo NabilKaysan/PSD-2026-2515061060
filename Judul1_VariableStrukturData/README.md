@@ -7,8 +7,8 @@ Program ini merupakan implementasi struktur data linked list dalam studi kasus a
 Struktur data yang digunakan adalah singly linked list, di mana setiap elemen (node) memiliki data dan referensi ke node berikutnya. Sistem ini menerapkan konsep FIFO (First In First Out), yaitu data yang masuk terlebih dahulu akan diproses terlebih dahulu. Operasi utama dalam program ini meliputi penambahan antrian (enqueue), penghapusan antrian (dequeue), melihat antrian terdepan (peek), menampilkan seluruh antrian (display), dan menghitung jumlah antrian.
 ## c. Source Code
 <img width="2032" height="7542" alt="2515061060_Muhammad Nabil Al Kaysan_Praktikum SD_TA 1 py" src="https://github.com/user-attachments/assets/cb7e616c-ced2-4d5c-b8ef-c022c528780b" />
-## 1. Class Node
 
+### 1. Class Node
 Class Node digunakan untuk merepresentasikan satu elemen dalam linked list.
 Setiap node memiliki:
 nomor → nomor antrian
