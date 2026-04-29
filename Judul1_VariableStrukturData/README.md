@@ -102,162 +102,95 @@ Struktur data yang digunakan adalah singly linked list, di mana setiap elemen (n
 * Jika kosong, tampilkan pesan.
 * `print("\n=== DAFTAR ANTRIAN PELAYANAN SIM ===")`
   * Menampilkan judul daftar antrian.
-current = self.head
-
-Menentukan node awal.
-
-        while current is not None:
-
-Melakukan traversal selama node masih ada.
-
-            print(f"[{current.nomor}] {current.nama} - SIM {current.jenis_sim}")
-
-Menampilkan data node saat ini.
-
-            current = current.next
-
-Berpindah ke node berikutnya.
-
-8. Fungsi jumlah_antrian()
-    def jumlah_antrian(self):
-
-Fungsi untuk menghitung jumlah antrian.
-
-        count = 0
-
-Inisialisasi penghitung.
-
-        current = self.head
-
-Mulai dari node pertama.
-
-        while current is not None:
-            count += 1
-            current = current.next
-
-Menelusuri seluruh node dan menghitung jumlahnya.
-
-        print(f"Jumlah antrian saat ini: {count}")
-
-Menampilkan jumlah antrian.
-
-9. Fungsi menu()
-def menu():
-
-Fungsi untuk menampilkan menu.
-
-    print("\n===== MENU ANTRIAN PELAYANAN SIM =====")
-    print("1. Tambah antrian")
-    print("2. Layani antrian")
-    print("3. Lihat antrian terdepan")
-    print("4. Tampilkan seluruh antrian")
-    print("5. Jumlah antrian")
-    print("6. Keluar")
-
-Menampilkan daftar pilihan menu.
-
-10. Fungsi main()
-def main():
-
-Fungsi utama program.
-
-    antrian = AntrianSIM()
-
-Membuat objek antrian.
-
-    while True:
-
-Perulangan program.
-
-        menu()
-
-Menampilkan menu.
-
-        try:
-            pilihan = int(input("Pilih menu: "))
-
-Mengambil input dari user.
-
-        except ValueError:
-            print("Input harus berupa angka.")
-            continue
-
-Menangani error jika input bukan angka.
-
-11. Percabangan Menu
-
-Tambah Antrian
-
-        if pilihan == 1:
-
-Jika memilih tambah antrian.
-
-            nama = input("Masukkan nama pemohon: ").strip()
-            jenis_sim = input("Masukkan jenis SIM (A/C/D): ").strip().upper()
-
-Mengambil input data.
-
-            if nama == "":
-                print("Nama tidak boleh kosong.")
-                continue
-
-Validasi nama.
-
-            if jenis_sim not in ["A", "C", "D"]:
-                print("Jenis SIM harus A, C, atau D.")
-                continue
-
-Validasi jenis SIM.
-
-            antrian.enqueue(nama, jenis_sim)
-
-Menambahkan data ke antrian.
-
-Layani Antrian
-
-        elif pilihan == 2:
-            antrian.dequeue()
-
-Menghapus antrian terdepan.
-
-Lihat Antrian
-
-        elif pilihan == 3:
-            antrian.peek()
-
-Menampilkan antrian terdepan.
-
-Tampilkan Semua
-
-        elif pilihan == 4:
-            antrian.display()
-
-Menampilkan seluruh antrian.
-
-Jumlah Antrian
-
-        elif pilihan == 5:
-            antrian.jumlah_antrian()
-
-Menampilkan jumlah antrian.
-
-Keluar
-
-        elif pilihan == 6:
-            print("Program selesai.")
-            break
-
-Menghentikan program.
-
-Pilihan Tidak Valid
-
-        else:
-            print("Pilihan tidak valid.")
-
-Menangani input yang salah.
-
-12. Eksekusi Program
-if __name__ == "__main__":
-    main()
-
-Menjalankan fungsi utama saat file dieksekusi.
+* `current = self.head`
+  * Menentukan node awal.
+* `while current is not None:`
+  * Melakukan traversal selama node masih ada.
+* `print(f"[{current.nomor}] {current.nama} - SIM {current.jenis_sim}")`
+  * Menampilkan data node saat ini.
+* `current = current.next`
+  * Berpindah ke node berikutnya.
+### 8. Fungsi jumlah_antrian()
+* `def jumlah_antrian(self):`
+  * Fungsi untuk menghitung jumlah antrian.
+* `count = 0`
+  * Inisialisasi penghitung.
+* `current = self.head`
+  * Mulai dari node pertama.
+* `while current is not None:`
+  * `count += 1 `
+  * `current = current.next`
+  * Menelusuri seluruh node dan menghitung jumlahnya.
+* `print(f"Jumlah antrian saat ini: {count}")`
+  * Menampilkan jumlah antrian.
+### 9. Fungsi menu()
+* `def menu():`
+  * Fungsi untuk menampilkan menu.
+* `print("\n===== MENU ANTRIAN PELAYANAN SIM =====")`
+* `print("1. Tambah antrian")`
+* `print("2. Layani antrian")`
+* `print("3. Lihat antrian terdepan")` 
+* `print("4. Tampilkan seluruh antrian") `
+* `print("5. Jumlah antrian")`
+* `print("6. Keluar")`
+  * Menampilkan daftar pilihan menu.
+### 10. Fungsi main()
+* `def main():`
+  * Fungsi utama program.
+* `antrian = AntrianSIM()`
+  * Membuat objek antrian.
+* `while True:`
+  * `Perulangan program.`
+  * `menu()`
+  * Menampilkan menu.
+* `try:`
+  * `pilihan = int(input("Pilih menu: "))`
+  * Mengambil input dari user.
+* `except ValueError:`
+   * `print("Input harus berupa angka.")`
+   * `continue`
+  * Menangani error jika input bukan angka.
+### 11. Percabangan Menu
+  ### Tambah Antrian
+* `if pilihan == 1:`
+  * Jika memilih tambah antrian.
+* `nama = input("Masukkan nama pemohon: ").strip()`
+* `jenis_sim = input("Masukkan jenis SIM (A/C/D): ").strip().upper()`
+  * Mengambil input data.
+* `if nama == "":`
+* `print("Nama tidak boleh kosong.")`
+* `continue`
+  * Validasi nama.
+* `if jenis_sim not in ["A", "C", "D"]:`
+  * `print("Jenis SIM harus A, C, atau D.")`
+  * `continue`
+  * Validasi jenis SIM.
+* `antrian.enqueue(nama, jenis_sim)`
+  * Menambahkan data ke antrian.
+  ### Layani Antrian
+* `elif pilihan == 2:`
+* `antrian.dequeue()`
+  * Menghapus antrian terdepan.
+  ### Lihat Antrian
+* `elif pilihan == 3:`
+* `antrian.peek()`
+  * Menampilkan antrian terdepan.
+  ### Tampilkan Semua
+* `elif pilihan == 4:`
+* `antrian.display()`
+  * Menampilkan seluruh antrian.
+  ### Jumlah Antrian
+* `elif pilihan == 5:`
+* `antrian.jumlah_antrian()`
+  * Menampilkan jumlah antrian.
+  ### Keluar
+* `elif pilihan == 6:`
+  * `print("Program selesai.")`
+  * `break`
+  *Menghentikan program.
+  * `else:`
+    * `print("Pilihan tidak valid.")`
+### 12. Eksekusi Program
+  * `if __name__ == "__main__":`
+    * `main()`
+  *Menjalankan fungsi utama saat file dieksekusi.
