@@ -194,3 +194,6 @@ Struktur data yang digunakan adalah singly linked list, di mana setiap elemen (n
   * `if __name__ == "__main__":`
     * `main()`
   *Menjalankan fungsi utama saat file dieksekusi.
+
+## d. Output Program
+<img width="384" height="254" alt="Screenshot 2026-04-29 220559" src="https://github.com/user-attachments/assets/cee6244e-9fb5-497f-8bd4-b4b1c0b3f0c7" />
