@@ -229,3 +229,6 @@ Jika memilih menu 6, program akan berhenti dan menampilkan:
   * Data pertama yang masuk akan diproses terlebih dahulu
   * Penambahan terjadi di belakang antrian
   * Penghapusan terjadi di depan antrian
+
+## e. Link YouTube
+https://youtu.be/lKR1-4dvegw
