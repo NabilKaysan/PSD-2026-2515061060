@@ -5,4 +5,5 @@ Sistem Antrian Pelayanan Pembuatan SIM
 Program ini merupakan implementasi struktur data linked list dalam studi kasus antrian pelayanan pembuatan SIM. Program dibuat menggunakan bahasa Python dan mensimulasikan sistem antrian seperti di dunia nyata, di mana pemohon SIM akan dilayani berdasarkan urutan kedatangan.
 
 Struktur data yang digunakan adalah singly linked list, di mana setiap elemen (node) memiliki data dan referensi ke node berikutnya. Sistem ini menerapkan konsep FIFO (First In First Out), yaitu data yang masuk terlebih dahulu akan diproses terlebih dahulu. Operasi utama dalam program ini meliputi penambahan antrian (enqueue), penghapusan antrian (dequeue), melihat antrian terdepan (peek), menampilkan seluruh antrian (display), dan menghitung jumlah antrian.
-##
+## c. Source Code
+<img width="750" height="714" alt="Screenshot 2026-04-29 202628" src="https://github.com/user-attachments/assets/d73348fc-3e1e-45c8-a19d-bff3669a24a3" />
