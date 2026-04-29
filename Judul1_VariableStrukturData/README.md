@@ -223,3 +223,9 @@ Ketika memilih menu 4, program akan menampilkan semua data antrian dari depan ke
 Ketika memilih menu 5, program akan menampilkan jumlah pemohon yang masih berada dalam antrian.
 * Output Keluar Program
 Jika memilih menu 6, program akan berhenti dan menampilkan:
+
+### Kesimpulan Output
+* Output program menunjukkan bahwa sistem antrian berjalan sesuai konsep FIFO (First In First Out), di mana:
+  * Data pertama yang masuk akan diproses terlebih dahulu
+  * Penambahan terjadi di belakang antrian
+  * Penghapusan terjadi di depan antrian
