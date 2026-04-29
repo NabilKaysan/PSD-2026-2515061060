@@ -196,4 +196,10 @@ Struktur data yang digunakan adalah singly linked list, di mana setiap elemen (n
   *Menjalankan fungsi utama saat file dieksekusi.
 
 ## d. Output Program
+### Program akan menampilkan menu utama saat dijalankan
 <img width="384" height="254" alt="Screenshot 2026-04-29 220559" src="https://github.com/user-attachments/assets/cee6244e-9fb5-497f-8bd4-b4b1c0b3f0c7" />
+
+<img width="566" height="743" alt="Screenshot 2026-04-29 221358" src="https://github.com/user-attachments/assets/8ab3068d-743c-4e8e-a4e7-5f5a1cc18c61" />
+<img width="544" height="717" alt="Screenshot 2026-04-29 221414" src="https://github.com/user-attachments/assets/b16077da-b015-46c9-a191-1b72cf5da28e" />
+<img width="521" height="646" alt="Screenshot 2026-04-29 221423" src="https://github.com/user-attachments/assets/7df088f4-396b-46c0-a9f5-1d9db66a5460" />
+<img width="543" height="762" alt="Screenshot 2026-04-29 221432" src="https://github.com/user-attachments/assets/76b81137-e7ff-4792-8fe4-84a444e01455" />
