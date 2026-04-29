@@ -208,3 +208,18 @@ Struktur data yang digunakan adalah singly linked list, di mana setiap elemen (n
 <img width="543" height="762" alt="Screenshot 2026-04-29 221432" src="https://github.com/user-attachments/assets/76b81137-e7ff-4792-8fe4-84a444e01455" />
 
 ### Penjelasan Output
+* Ketika pengguna memilih menu 1, program akan meminta input:
+  * Nama pemohon
+  * Jenis SIM (A/C/D)
+Setiap penambahan data akan menambah nomor antrian secara otomatis (2, 3, dan seterusnya).
+Data yang dimasukkan akan ditempatkan di bagian belakang antrian.
+* Output Layani Antrian (Dequeue)
+Ketika pengguna memilih menu 2, program akan memproses antrian paling depan.
+* Output Lihat Antrian Terdepan (Peek)
+Ketika memilih menu 3, program akan menampilkan data pemohon yang berada di posisi paling depan tanpa menghapusnya.
+* Output Tampilkan Seluruh Antrian (Display)
+Ketika memilih menu 4, program akan menampilkan semua data antrian dari depan ke belakang.
+* Output Jumlah Antrian
+Ketika memilih menu 5, program akan menampilkan jumlah pemohon yang masih berada dalam antrian.
+* Output Keluar Program
+Jika memilih menu 6, program akan berhenti dan menampilkan:
