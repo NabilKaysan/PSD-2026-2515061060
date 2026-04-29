@@ -9,22 +9,15 @@ Struktur data yang digunakan adalah singly linked list, di mana setiap elemen (n
 <img width="2032" height="7542" alt="2515061060_Muhammad Nabil Al Kaysan_Praktikum SD_TA 1 py" src="https://github.com/user-attachments/assets/cb7e616c-ced2-4d5c-b8ef-c022c528780b" />
 
 ### 1. Class Node
-* class Node:
+* `class Node:`
   * Mendefinisikan class Node sebagai elemen dasar dalam linked list
-* def __init__(self, nomor, nama, jenis_sim):
+* `def __init__(self, nomor, nama, jenis_sim):`
   * Constructor untuk menginisialisasi data pada node
- self.nomor = nomor
-
-Menyimpan nomor antrian.
-
-        self.nama = nama
-
-Menyimpan nama pemohon.
-
-        self.jenis_sim = jenis_sim
-
-Menyimpan jenis SIM yang diajukan.
-
-        self.next = None
-
-Pointer ke node berikutnya, awalnya bernilai None.
+* `self.nomor = nomor`
+  * Menyimpan nomor antrian.
+* `self.nama = nama`
+  * Menyimpan nama pemohon.
+* `self.jenis_sim = jenis_sim`
+  * Menyimpan jenis SIM yang diajukan.
+* `self.next = None`
+  * Pointer ke node berikutnya, awalnya bernilai None.
