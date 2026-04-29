@@ -11,5 +11,5 @@ Struktur data yang digunakan adalah singly linked list, di mana setiap elemen (n
 ### 1. Class Node
 Class Node digunakan untuk merepresentasikan satu elemen dalam linked list.
 Setiap node memiliki:
-nomor → nomor antrian
-nama → nama pemohon
+-nomor → nomor antrian
+-nama → nama pemohon
