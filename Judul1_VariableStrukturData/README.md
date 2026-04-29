@@ -11,6 +11,7 @@ Struktur data yang digunakan adalah singly linked list, di mana setiap elemen (n
 ### 1. Class Node
 * `class Node:`
   * Mendefinisikan class Node sebagai elemen dasar dalam linked list.
+    
 * `def __init__(self, nomor, nama, jenis_sim):`
   * Constructor untuk menginisialisasi data pada node.
 * `self.nomor = nomor`
