@@ -98,9 +98,9 @@ Struktur data yang digunakan adalah list Python, sedangkan algoritma sorting yan
 
 
 ## d. Output Program
+### Screenshoot Output
+
 <img width="707" height="715" alt="Screenshot 2026-05-04 204048" src="https://github.com/user-attachments/assets/06d6bf19-3bbb-453c-b6a1-21ad8a2fa944" />
 
+### Penjelasam Output
 ## e. Link Youtube
-Setelah data diurutkan, masakan dengan skor prioritas lebih tinggi akan berada di urutan awal, sehingga proses memasak menjadi lebih teratur.
-
-hami karena prosesnya dilakukan dengan cara menyisipkan elemen ke posisi yang tepat secara bertahap.
