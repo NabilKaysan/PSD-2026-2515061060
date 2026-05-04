@@ -63,7 +63,7 @@ Struktur data yang digunakan adalah list Python, sedangkan algoritma sorting yan
 - `try:`
   - Menangani error input.
 
-- `n = int(input(...))`
+- `n = int(input("Masukkan jumlah masakan: "))`
   - Input jumlah data.
 
 - `arr = []`
@@ -75,13 +75,15 @@ Struktur data yang digunakan adalah list Python, sedangkan algoritma sorting yan
 - `while True:`
   - Validasi input.
 
-- `arr.append([...])`
+- `arr.append([nama, waktu, sulit, target])`
   - Menyimpan data.
 
 - `insertion_sort(arr, n)`
   - Memanggil sorting.
 
-- `print(...)`
+- `print("\nUrutan memasak yang disarankan:")`
+    `for i in range(n):`
+        `print(f"{arr[i][0]} (Skor: {hitung_skor(arr[i])})")`
   - Menampilkan hasil.
 
 ---
