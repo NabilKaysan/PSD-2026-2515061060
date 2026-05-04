@@ -11,6 +11,7 @@ Pada program ini, setiap masakan memiliki data berupa nama masakan, waktu masak,
 Struktur data yang digunakan adalah list Python, sedangkan algoritma sorting yang diterapkan adalah Insertion Sort. Algoritma ini bekerja dengan cara menyisipkan elemen pada posisi yang sesuai di dalam data yang sudah terurut sebagian.
 
 ## c. Source Code
+
 <img width="1988" height="3502" alt="tugas_akhir_judul2 py (1)" src="https://github.com/user-attachments/assets/48932a76-d07d-49da-9a90-c1fd0dd59fbf" />
 
 
