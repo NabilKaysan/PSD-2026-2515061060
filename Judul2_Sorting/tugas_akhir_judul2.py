@@ -1,9 +1,3 @@
-def tukar(arr, i, j):
-    temp = arr[i]
-    arr[i] = arr[j]
-    arr[j] = temp
-
-
 def hitung_skor(masakan):
     return masakan[1] + masakan[2]
 
