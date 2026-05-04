@@ -105,7 +105,7 @@ Misalnya data yang dimasukkan sebagai berikut:
 3. Telur Dadar, 10 menit, kesulitan 20, target 60  
 4. Sambal, 5 menit, kesulitan 30, target 60  
 
-## e. Contoh Hasil Keluaran
+## e. Link Youtube
 Setelah data diurutkan, masakan dengan skor prioritas lebih tinggi akan berada di urutan awal, sehingga proses memasak menjadi lebih teratur.
 
 hami karena prosesnya dilakukan dengan cara menyisipkan elemen ke posisi yang tepat secara bertahap.
