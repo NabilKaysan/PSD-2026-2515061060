@@ -108,7 +108,4 @@ Misalnya data yang dimasukkan sebagai berikut:
 ## e. Contoh Hasil Keluaran
 Setelah data diurutkan, masakan dengan skor prioritas lebih tinggi akan berada di urutan awal, sehingga proses memasak menjadi lebih teratur.
 
-## f. Kesimpulan
-Program ini menunjukkan penerapan algoritma Insertion Sort dalam kehidupan sehari-hari, yaitu pada sistem penentuan urutan memasak. Dengan pendekatan ini, pengguna dapat menentukan masakan mana yang perlu dikerjakan lebih dulu berdasarkan prioritas yang telah dihitung.
-
-Algoritma Insertion Sort cocok digunakan untuk data yang jumlahnya tidak terlalu banyak dan mudah dipahami karena prosesnya dilakukan dengan cara menyisipkan elemen ke posisi yang tepat secara bertahap.
+hami karena prosesnya dilakukan dengan cara menyisipkan elemen ke posisi yang tepat secara bertahap.
