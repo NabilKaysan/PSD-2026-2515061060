@@ -120,3 +120,4 @@ Struktur data yang digunakan adalah list Python, sedangkan algoritma sorting yan
 - Masakan dengan skor prioritas paling tinggi akan ditempatkan di urutan teratas.
 - Dengan demikian, program dapat membantu menentukan urutan memasak secara lebih teratur dan efisien.
 ## e. Link Youtube
+https://youtu.be/1lNkfJRFkrk
