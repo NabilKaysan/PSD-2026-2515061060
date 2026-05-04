@@ -98,12 +98,7 @@ Struktur data yang digunakan adalah list Python, sedangkan algoritma sorting yan
 
 
 ## d. Output Program
-Misalnya data yang dimasukkan sebagai berikut:
-
-1. Nasi Goreng, 20 menit, kesulitan 40, target 60  
-2. Sup Ayam, 35 menit, kesulitan 60, target 60  
-3. Telur Dadar, 10 menit, kesulitan 20, target 60  
-4. Sambal, 5 menit, kesulitan 30, target 60  
+<img width="707" height="715" alt="Screenshot 2026-05-04 204048" src="https://github.com/user-attachments/assets/06d6bf19-3bbb-453c-b6a1-21ad8a2fa944" />
 
 ## e. Link Youtube
 Setelah data diurutkan, masakan dengan skor prioritas lebih tinggi akan berada di urutan awal, sehingga proses memasak menjadi lebih teratur.
