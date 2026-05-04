@@ -97,7 +97,7 @@ Struktur data yang digunakan adalah list Python, sedangkan algoritma sorting yan
   - Menjalankan program.
 
 
-## d. Contoh Data Masukan
+## d. Output Program
 Misalnya data yang dimasukkan sebagai berikut:
 
 1. Nasi Goreng, 20 menit, kesulitan 40, target 60  
