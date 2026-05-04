@@ -82,8 +82,8 @@ Struktur data yang digunakan adalah list Python, sedangkan algoritma sorting yan
   - Memanggil sorting.
 
 - `print("\nUrutan memasak yang disarankan:")`
-    `for i in range(n):`
-        `print(f"{arr[i][0]} (Skor: {hitung_skor(arr[i])})")`
+-    `for i in range(n):`
+-        `print(f"{arr[i][0]} (Skor: {hitung_skor(arr[i])})")`
   - Menampilkan hasil.
 
 ---
