@@ -17,61 +17,83 @@ Struktur data yang digunakan adalah list Python, sedangkan algoritma sorting yan
 
 
 ### 1. Fungsi `hitung_skor()`
+
 - `def hitung_skor(masakan):`
-  - Fungsi ini digunakan untuk menghitung skor prioritas dari setiap masakan.
-- `nama = masakan[0]`
-  - Menyimpan nama masakan.
-- `waktu = masakan[1]`
-  - Menyimpan waktu masak.
-- `sulit = masakan[2]`
-  - Menyimpan tingkat kesulitan.
-- `target = masakan[3]`
-  - Menyimpan target waktu siap masakan.
-- `return waktu + sulit`
-  - Menghasilkan skor prioritas berdasarkan waktu masak dan tingkat kesulitan.
-  - Pada versi ini, target disimpan sebagai data tambahan untuk pengembangan berikutnya.
+  - Mendefinisikan fungsi untuk menghitung skor prioritas.
+
+- `return masakan[1] + masakan[2]`
+  - Mengembalikan nilai waktu masak + tingkat kesulitan.
+  - Semakin besar skor → semakin diprioritaskan.
+
+---
 
 ### 2. Fungsi `insertion_sort()`
+
 - `def insertion_sort(arr, n):`
-  - Fungsi untuk mengurutkan data masakan menggunakan algoritma Insertion Sort.
+  - Fungsi untuk mengurutkan data menggunakan insertion sort.
+
 - `for i in range(1, n):`
-  - Perulangan dimulai dari elemen ke-2 karena elemen pertama dianggap sudah terurut.
+  - Perulangan dimulai dari elemen ke-2.
+
 - `temp = arr[i]`
-  - Menyimpan elemen yang sedang diproses.
+  - Menyimpan data sementara.
+
 - `j = i - 1`
-  - Menentukan posisi elemen sebelumnya.
+  - Menentukan posisi sebelumnya.
+
 - `while j >= 0 and hitung_skor(arr[j]) < hitung_skor(temp):`
-  - Jika skor elemen sebelumnya lebih kecil dari skor elemen saat ini, elemen tersebut digeser ke kanan.
+  - Membandingkan skor dan menggeser data.
+
+- `arr[j + 1] = arr[j]`
+  - Menggeser elemen ke kanan.
+
+- `j -= 1`
+  - Pindah ke indeks sebelumnya.
+
 - `arr[j + 1] = temp`
-  - Menempatkan elemen pada posisi yang sesuai.
+  - Menyisipkan elemen ke posisi yang benar.
+
+---
 
 ### 3. Fungsi `main()`
+
 - `def main():`
   - Fungsi utama program.
+
 - `try:`
-  - Digunakan untuk menangkap error jika input jumlah data bukan angka.
-- `n = int(input("Masukkan jumlah masakan: "))`
-  - Memasukkan jumlah data masakan yang akan diurutkan.
+  - Menangani error input.
+
+- `n = int(input(...))`
+  - Input jumlah data.
+
 - `arr = []`
-  - Menampung data masakan dalam list.
+  - List kosong untuk data.
+
 - `for i in range(n):`
-  - Perulangan untuk menginput data masakan satu per satu.
-- `nama = input("Nama masakan: ")`
-  - Menginput nama masakan.
-- `waktu = int(input("Waktu masak (menit): "))`
-  - Menginput waktu masak.
-- `sulit = int(input("Tingkat kesulitan (1-100): "))`
-  - Menginput tingkat kesulitan masakan.
-- `target = int(input("Target waktu siap: "))`
-  - Menginput target waktu selesai masakan.
-- `arr.append([nama, waktu, sulit, target])`
-  - Menyimpan data masakan ke dalam list.
-- `print("\nData sebelum diurutkan:")`
-  - Menampilkan data sebelum sorting.
+  - Loop input data.
+
+- `while True:`
+  - Validasi input.
+
+- `arr.append([...])`
+  - Menyimpan data.
+
 - `insertion_sort(arr, n)`
-  - Memanggil fungsi sorting.
-- `print("\nUrutan memasak yang disarankan:")`
-  - Menampilkan hasil pengurutan data setelah sorting.
+  - Memanggil sorting.
+
+- `print(...)`
+  - Menampilkan hasil.
+
+---
+
+### 4. Struktur Program
+
+- `if __name__ == "__main__":`
+  - Entry point program.
+
+- `main()`
+  - Menjalankan program.
+
 
 ## d. Contoh Data Masukan
 Misalnya data yang dimasukkan sebagai berikut:
