@@ -12,7 +12,8 @@ Struktur data yang digunakan adalah list Python, sedangkan algoritma sorting yan
 
 ## c. Source Code
 
-<img width="1988" height="3502" alt="tugas_akhir_judul2 py (1)" src="https://github.com/user-attachments/assets/6cbf0b4e-8a7b-49ff-b2ee-5e2a058fb42c" />
+<img width="1988" height="3168" alt="tugas_akhir_judul2 py (2)" src="https://github.com/user-attachments/assets/4d94b0e2-ef51-4f96-8b10-3567c1103097" />
+
 
 
 ### 1. Fungsi `hitung_skor()`
