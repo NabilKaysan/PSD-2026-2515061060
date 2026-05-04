@@ -102,5 +102,21 @@ Struktur data yang digunakan adalah list Python, sedangkan algoritma sorting yan
 
 <img width="707" height="715" alt="Screenshot 2026-05-04 204048" src="https://github.com/user-attachments/assets/06d6bf19-3bbb-453c-b6a1-21ad8a2fa944" />
 
-### Penjelasam Output
+### Penjelasan Output
+- Ketika program dijalankan, pengguna diminta memasukkan jumlah masakan yang akan diproses.
+- Setelah itu, pengguna memasukkan data setiap masakan yang terdiri dari nama masakan, waktu masak, tingkat kesulitan, dan target waktu siap.
+- Pada bagian **Data sebelum diurutkan**, program menampilkan seluruh data yang masih berada dalam urutan input awal.
+- Data masakan kemudian dihitung skor prioritasnya menggunakan fungsi `hitung_skor()`, yaitu dengan menjumlahkan waktu masak dan tingkat kesulitan.
+- Dari hasil perhitungan, diperoleh skor masing-masing data, yaitu:
+  - Gulai = 115
+  - Nasi = 60
+  - Mie = 40
+  - Nugget = 15
+- Setelah proses perhitungan skor selesai, program melakukan pengurutan menggunakan algoritma Insertion Sort dengan urutan dari skor terbesar ke skor terkecil.
+- Hasil akhirnya menampilkan urutan memasak yang disarankan, yaitu Gulai, Nasi, Mie, dan Nugget.
+- Data target waktu siap tetap tersimpan pada setiap data masakan, tetapi pada coding ini belum digunakan dalam proses penghitungan skor, sehingga hanya menjadi informasi tambahan.
+### Kesimpulan Output
+- Output program menunjukkan bahwa proses pengurutan berjalan sesuai dengan algoritma Insertion Sort.
+- Masakan dengan skor prioritas paling tinggi akan ditempatkan di urutan teratas.
+- Dengan demikian, program dapat membantu menentukan urutan memasak secara lebih teratur dan efisien.
 ## e. Link Youtube
