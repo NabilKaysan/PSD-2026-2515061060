@@ -67,6 +67,7 @@ Contoh tampilan awal program:
 - Pengguna kemudian memasukkan status yang ingin dicari.
 - Program akan mengecek setiap data slot parkir satu per satu.
 - Jika status yang dicari adalah `Kosong`, maka program menampilkan seluruh slot yang masih tersedia.
+- Jika status yang dicari adalah `Terisi`, maka program menampilkan seluruh slot yang tidak tersedia.
 - Jika status tidak ditemukan, program menampilkan pesan bahwa data tidak tersedia.
 
 ### Kesimpulan Output
