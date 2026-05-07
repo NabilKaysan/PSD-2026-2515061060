@@ -58,6 +58,9 @@ Contoh tampilan awal program:
 ### Contoh Output Saat User Menginputkan "Terisi"
 <img width="506" height="597" alt="Screenshot 2026-05-07 210543" src="https://github.com/user-attachments/assets/f56a416c-66c5-442e-98df-3fb2c15e131d" />
 
+### Contoh Output Saat User Menginputkan "Kosong"
+<img width="518" height="466" alt="Screenshot 2026-05-07 210603" src="https://github.com/user-attachments/assets/88804833-360f-4d2c-8797-3223231c6b0b" />
+
 
 ### Penjelasan Output
 - Saat program dijalankan, seluruh data slot parkir akan ditampilkan terlebih dahulu.
