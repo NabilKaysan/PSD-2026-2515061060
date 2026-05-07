@@ -75,8 +75,4 @@ Contoh tampilan awal program:
 - Pencarian dilakukan dari awal list hingga seluruh data selesai diperiksa.
 - Sistem ini sesuai untuk studi kasus pencarian slot parkir kosong karena data dapat dicek satu per satu secara sederhana dan mudah dipahami.
 
-## e. Kesimpulan
-Program ini berhasil mengimplementasikan algoritma Sequential Search pada studi kasus pencarian slot parkir kosong di mall. Dengan menggunakan list sebagai struktur data utama, sistem mampu menampilkan slot yang berstatus kosong secara berurutan. Studi kasus ini cocok digunakan untuk memahami cara kerja searching dalam kondisi data yang tidak harus terurut.
-
-## f. Link YouTube
-Belum tersedia.
+## e. Link Youtube
