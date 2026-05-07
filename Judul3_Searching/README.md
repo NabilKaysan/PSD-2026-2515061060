@@ -55,29 +55,9 @@ Contoh tampilan awal program:
 
 <img width="443" height="242" alt="Screenshot 2026-05-07 210414" src="https://github.com/user-attachments/assets/3c5e8bdf-4a8a-44f3-a384-e740f22b090b" />
 
+### Contoh Output Saat User Menginputkan "Terisi"
+<img width="506" height="597" alt="Screenshot 2026-05-07 210543" src="https://github.com/user-attachments/assets/f56a416c-66c5-442e-98df-3fb2c15e131d" />
 
-### Contoh Output Saat Data Ditemukan
-
-```text
-Status Kosong ditemukan sebanyak 3 kali.
-Indeks ke-2
-Kode Slot : A03
-Status    : Kosong
-Lantai    : 2A
-Jenis     : Mobil
-
-Indeks ke-4
-Kode Slot : A05
-Status    : Kosong
-Lantai    : 3A
-Jenis     : Mobil
-
-Indeks ke-6
-Kode Slot : A07
-Status    : Kosong
-Lantai    : 4A
-Jenis     : Mobil
-```
 
 ### Penjelasan Output
 - Saat program dijalankan, seluruh data slot parkir akan ditampilkan terlebih dahulu.
