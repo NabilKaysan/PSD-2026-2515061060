@@ -53,18 +53,8 @@ Struktur data yang digunakan adalah list, di mana setiap elemen menyimpan data s
 
 Contoh tampilan awal program:
 
-```text
-Data slot parkir:
-A01 | Terisi | Lantai 1A | Mobil
-A02 | Terisi | Lantai 1A | Mobil
-A03 | Kosong | Lantai 2A | Mobil
-A04 | Terisi | Lantai 2B | Motor
-A05 | Kosong | Lantai 3A | Mobil
-A06 | Terisi | Lantai 3B | Motor
-A07 | Kosong | Lantai 4A | Mobil
+<img width="443" height="242" alt="Screenshot 2026-05-07 210414" src="https://github.com/user-attachments/assets/3c5e8bdf-4a8a-44f3-a384-e740f22b090b" />
 
-Masukkan status yang dicari (Kosong/Terisi): Kosong
-```
 
 ### Contoh Output Saat Data Ditemukan
 
