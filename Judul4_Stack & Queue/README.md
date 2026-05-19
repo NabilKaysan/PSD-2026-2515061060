@@ -156,8 +156,10 @@ Kode program menggunakan dua class utama, yaitu `Node` dan `QueueLinkedList`.
 ### Program akan menampilkan menu utama saat dijalankan
 
 Saat program pertama kali dijalankan, pengguna akan melihat menu utama untuk mengelola antrian pesanan kantin.
+<img width="333" height="186" alt="Screenshot 2026-05-19 214637" src="https://github.com/user-attachments/assets/49587fac-137c-42ca-a2c1-95bf13660d1a" />
 
 ### Penjelasan Output
+<img width="329" height="801" alt="Screenshot 2026-05-19 215009" src="https://github.com/user-attachments/assets/9a3c338d-d9b7-41fb-9287-3dce71174e0a" />
 
 * Ketika pengguna memilih **menu 1**, program akan meminta input:
 
@@ -166,12 +168,16 @@ Saat program pertama kali dijalankan, pengguna akan melihat menu utama untuk men
   * Catatan pesanan
 
   Data yang dimasukkan akan ditempatkan di bagian belakang antrian sesuai prinsip FIFO.
+<img width="366" height="278" alt="Screenshot 2026-05-19 215044" src="https://github.com/user-attachments/assets/589f565d-56b8-4e26-aa2e-94e28a62e919" />
 
 * Ketika pengguna memilih **menu 2**, program akan memproses pesanan yang berada di bagian depan antrian.
+<img width="326" height="269" alt="Screenshot 2026-05-19 215104" src="https://github.com/user-attachments/assets/cc003a12-4004-47b4-b67c-246d5c725e97" />
 
 * Ketika pengguna memilih **menu 3**, program akan menampilkan data pesanan terdepan tanpa menghapusnya.
+<img width="406" height="263" alt="Screenshot 2026-05-19 215131" src="https://github.com/user-attachments/assets/bec94020-09f0-4ec4-8ebd-13294d7deb1e" />
 
 * Ketika pengguna memilih **menu 4**, program akan menampilkan seluruh data pesanan dari depan ke belakang.
+<img width="316" height="199" alt="Screenshot 2026-05-19 215139" src="https://github.com/user-attachments/assets/0e9f282b-05cc-4a82-a61f-05c7c9e4adec" />
 
 * Ketika pengguna memilih **menu 5**, program akan berhenti dan menampilkan pesan program selesai.
 
