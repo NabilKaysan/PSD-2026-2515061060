@@ -6,9 +6,9 @@ Sistem Antrian Pesanan Kantin Kampus
 
 ## b. Deskripsi Singkat
 
-Program ini merupakan implementasi struktur data **queue** menggunakan **singly linked list** pada studi kasus antrian pesanan kantin kampus. Program dibuat menggunakan bahasa Python untuk mensimulasikan alur pemesanan makanan dan minuman yang diproses sesuai urutan kedatangan.
+Program ini merupakan implementasi struktur data queue menggunakan singly linked list pada studi kasus antrian pesanan kantin kampus. Program dibuat menggunakan bahasa Python untuk mensimulasikan alur pemesanan makanan dan minuman yang diproses sesuai urutan kedatangan.
 
-Struktur data yang digunakan adalah singly linked list, di mana setiap elemen (node) menyimpan data pesanan dan referensi ke node berikutnya. Sistem ini menerapkan konsep **FIFO (First In First Out)**, yaitu pesanan yang masuk terlebih dahulu akan diproses terlebih dahulu.
+Struktur data yang digunakan adalah singly linked list, di mana setiap elemen (node) menyimpan data pesanan dan referensi ke node berikutnya. Sistem ini menerapkan konsep FIFO (First In First Out), yaitu pesanan yang masuk terlebih dahulu akan diproses terlebih dahulu.
 
 Operasi utama dalam program ini meliputi:
 
