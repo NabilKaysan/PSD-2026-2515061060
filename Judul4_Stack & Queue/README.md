@@ -21,7 +21,7 @@ Operasi utama dalam program ini meliputi:
 ## c. Source Code
 
 Kode program menggunakan dua class utama, yaitu `Node` dan `QueueLinkedList`.
-<img width="2594" height="6300" alt="tugas_akhir_judul4 py (2)" src="https://github.com/user-attachments/assets/8192e636-f91c-4aff-9d13-24e50ebe5bac" />
+<img width="2594" height="6300" alt="tugas_akhir_judul4 py (2)" src="https://github.com/user-attachments/assets/37cc47c6-111e-4e08-bc6e-d63d1e76e866" />
 
 ### 1. Class Node
 
