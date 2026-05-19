@@ -182,10 +182,4 @@ Output program menunjukkan bahwa sistem antrian berjalan sesuai konsep **FIFO (F
 * penambahan terjadi di belakang antrian,
 * penghapusan terjadi di depan antrian.
 
-## e. Kesimpulan
-
-Program ini berhasil mengimplementasikan struktur data **Queue Linked List** dalam studi kasus antrian pesanan kantin kampus. Dengan adanya operasi `enqueue`, `dequeue`, `peek`, dan `display`, program dapat mensimulasikan proses antrian secara nyata dan sesuai dengan konsep FIFO.
-
-## f. Link YouTube
-
-(Bisa diisi jika sudah ada video presentasi atau demo program)
+## e. Link YouTube
