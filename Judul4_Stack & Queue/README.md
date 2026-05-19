@@ -190,3 +190,4 @@ Output program menunjukkan bahwa sistem antrian berjalan sesuai konsep **FIFO (F
 * penghapusan terjadi di depan antrian.
 
 ## e. Link YouTube
+https://youtu.be/nFlvk1gCz9Q
