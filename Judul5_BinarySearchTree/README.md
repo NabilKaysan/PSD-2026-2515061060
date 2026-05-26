@@ -16,14 +16,8 @@ Operasi utama dalam program ini meliputi penambahan data makanan (*insert*), pen
 
 ### 1. Class Node
 
-```python
-class Node:
-    def __init__(self, expired, nama):
-        self.expired = expired
-        self.nama = nama
-        self.left = None
-        self.right = None
-```
+<img width="1124" height="684" alt="tugas_akhir_judul5 py" src="https://github.com/user-attachments/assets/df66c0d7-e8dc-479c-9935-f419c656b37e" />
+
 
 - `class Node:`  
   Mendefinisikan class Node sebagai elemen dasar pada BST.
@@ -45,11 +39,8 @@ class Node:
 
 ### 2. Class SmartFridge
 
-```python
-class SmartFridge:
-    def __init__(self):
-        self.root = None
-```
+<img width="1000" height="522" alt="tugas_akhir_judul5 py (1)" src="https://github.com/user-attachments/assets/38805b16-fae0-45b0-9e62-140126c1aef6" />
+
 
 - `class SmartFridge:`  
   Mendefinisikan class utama untuk mengelola BST.
@@ -62,18 +53,8 @@ class SmartFridge:
 
 ### 3. Fungsi insert_node()
 
-```python
-def insert_node(self, root, expired, nama):
-    if root is None:
-        return Node(expired, nama)
+<img width="1692" height="1008" alt="tugas_akhir_judul5 py (2)" src="https://github.com/user-attachments/assets/45b27c62-b921-4430-a5f4-d48bb16f0c57" />
 
-    if expired < root.expired:
-        root.left = self.insert_node(root.left, expired, nama)
-    elif expired > root.expired:
-        root.right = self.insert_node(root.right, expired, nama)
-
-    return root
-```
 
 - Fungsi ini digunakan untuk menambahkan node baru ke BST.
 - Jika root kosong, maka node baru langsung dibuat.
@@ -83,29 +64,16 @@ def insert_node(self, root, expired, nama):
 
 ### 4. Fungsi insert()
 
-```python
-def insert(self, expired, nama):
-    self.root = self.insert_node(self.root, expired, nama)
-```
+<img width="1644" height="468" alt="tugas_akhir_judul5 py (3)" src="https://github.com/user-attachments/assets/947f467e-40bb-4b3c-8c3a-868b15e7bdf2" />
+
 
 - Fungsi ini berfungsi sebagai pembungkus dari `insert_node()`.
 - Digunakan untuk memulai proses penambahan data dari root.
 
 ### 5. Fungsi search_node()
 
-```python
-def search_node(self, root, expired):
-    if root is None:
-        return None
+<img width="1492" height="954" alt="tugas_akhir_judul5 py (4)" src="https://github.com/user-attachments/assets/f27dcb7d-6aaa-4a5c-aecb-b82aea0275b9" />
 
-    if root.expired == expired:
-        return root
-
-    if expired < root.expired:
-        return self.search_node(root.left, expired)
-
-    return self.search_node(root.right, expired)
-```
 
 - Fungsi ini digunakan untuk mencari data makanan berdasarkan tanggal kedaluwarsa.
 - Jika node kosong, maka data tidak ditemukan.
@@ -115,23 +83,15 @@ def search_node(self, root, expired):
 
 ### 6. Fungsi search()
 
-```python
-def search(self, expired):
-    return self.search_node(self.root, expired)
-```
+<img width="1406" height="468" alt="tugas_akhir_judul5 py (5)" src="https://github.com/user-attachments/assets/a0d8c9c3-ce4a-4120-aa09-e2f1e4f682a8" />
+
 
 - Fungsi ini digunakan untuk memulai pencarian dari root BST.
 
 ### 7. Fungsi inorder()
 
-```python
-def inorder(self, root):
-    if root is None:
-        return
-    self.inorder(root.left)
-    print(f"{root.expired} - {root.nama}")
-    self.inorder(root.right)
-```
+<img width="1298" height="684" alt="tugas_akhir_judul5 py (6)" src="https://github.com/user-attachments/assets/7d435981-0e14-4bbb-8df0-ccf4ebad4d8a" />
+
 
 - Fungsi ini menggunakan traversal inorder.
 - Urutan traversal:
@@ -142,16 +102,8 @@ def inorder(self, root):
 
 ### 8. Fungsi find_min()
 
-```python
-def find_min(self, root):
-    if root is None:
-        return None
+<img width="1146" height="792" alt="tugas_akhir_judul5 py (7)" src="https://github.com/user-attachments/assets/88d29807-3b52-47c8-abde-5303912d057c" />
 
-    current = root
-    while current.left is not None:
-        current = current.left
-    return current
-```
 
 - Fungsi ini digunakan untuk mencari node dengan nilai terkecil.
 - Pada BST, nilai terkecil selalu berada pada node paling kiri.
@@ -159,16 +111,8 @@ def find_min(self, root):
 
 ### 9. Fungsi find_max()
 
-```python
-def find_max(self, root):
-    if root is None:
-        return None
+<img width="1168" height="738" alt="tugas_akhir_judul5 py (8)" src="https://github.com/user-attachments/assets/9dad175a-5e3e-412d-9081-35fe9f24000a" />
 
-    current = root
-    while current.right is not None:
-        current = current.right
-    return current
-```
 
 - Fungsi ini digunakan untuk mencari node dengan nilai terbesar.
 - Pada BST, nilai terbesar selalu berada pada node paling kanan.
@@ -176,36 +120,24 @@ def find_max(self, root):
 
 ### 10. Fungsi count_nodes()
 
-```python
-def count_nodes(self, root):
-    if root is None:
-        return 0
-    return 1 + self.count_nodes(root.left) + self.count_nodes(root.right)
-```
+<img width="1692" height="630" alt="tugas_akhir_judul5 py (9)" src="https://github.com/user-attachments/assets/dab52596-f95c-440f-bab1-b13f04e736a1" />
+
 
 - Fungsi ini digunakan untuk menghitung jumlah seluruh node pada BST.
 - Perhitungan dilakukan dengan menjumlahkan node saat ini, subtree kiri, dan subtree kanan.
 
 ### 11. Fungsi height()
 
-```python
-def height(self, root):
-    if root is None:
-        return -1
+<img width="1362" height="738" alt="tugas_akhir_judul5 py (10)" src="https://github.com/user-attachments/assets/9213cd56-151a-458b-8d7e-6361a76e12e5" />
 
-    height_left = self.height(root.left)
-    height_right = self.height(root.right)
-    return 1 + max(height_left, height_right)
-```
 
 - Fungsi ini digunakan untuk menghitung tinggi pohon BST.
 - Tinggi pohon menunjukkan kedalaman maksimum struktur BST.
 
 ### 12. Fungsi main()
 
-```python
-def main():
-```
+<img width="1692" height="4680" alt="tugas_akhir_judul5 py (11)" src="https://github.com/user-attachments/assets/85ef5c27-b2cb-4bb1-8df2-7bca8ab58a1d" />
+
 
 - Fungsi utama program yang digunakan untuk:
   - Menampilkan menu.
