@@ -1,12 +1,12 @@
 # Implementasi Binary Search Tree pada Smart Fridge
 
-## A. Judul Program
+## a. Judul Program
 
 **Sistem Monitoring Makanan Berdasarkan Tanggal Kedaluwarsa Menggunakan Binary Search Tree (BST)**
 
 ---
 
-## B. Deskripsi Program
+## b. Deskripsi Program
 
 Program Smart Fridge merupakan implementasi struktur data Binary Search Tree (BST) yang digunakan untuk mengelola data makanan berdasarkan tanggal kedaluwarsa. Setiap makanan memiliki tanggal kedaluwarsa sebagai key utama dan nama makanan sebagai data yang disimpan pada node BST.
 
@@ -24,7 +24,7 @@ Fitur yang tersedia dalam program ini adalah:
 
 ---
 
-## C. Source Code
+## c. Source Code
 
 ### 1. Class Node
 
@@ -167,7 +167,7 @@ Fungsi utama program yang digunakan untuk:
 
 ---
 
-## D. Penjelasan Output
+## d. Penjelasan Output
 
 Misalkan pengguna memasukkan data berikut:
 
@@ -233,7 +233,7 @@ Karena terdapat lima node yang tersimpan pada BST.
 
 ---
 
-## E. Kesimpulan
+## e. Kesimpulan
 
 Program Smart Fridge merupakan implementasi Binary Search Tree (BST) yang digunakan untuk mengelola data makanan berdasarkan tanggal kedaluwarsa. Dengan BST, data dapat tersimpan secara terurut sehingga pengguna dapat mengetahui makanan yang harus segera dikonsumsi maupun makanan yang masih aman disimpan dalam waktu yang lama.
 
