@@ -176,11 +176,13 @@ Digunakan untuk mengakhiri program.
 Program akan menampilkan menu utama saat dijalankan  
 Saat program pertama kali dijalankan, pengguna akan melihat menu utama untuk mengelola data makanan pada Smart Fridge.
 
-Screenshot 2026-05-19 214637
+<img width="329" height="256" alt="Screenshot 2026-05-26 193534" src="https://github.com/user-attachments/assets/7fb71d0f-7a0e-41c0-ae6f-c00843dd0b12" />
+
 
 ### Penjelasan Output
 
-Screenshot 2026-05-19 215009  
+<img width="366" height="304" alt="Screenshot 2026-05-26 193617" src="https://github.com/user-attachments/assets/2d80bd1d-387f-4cf5-8776-19c00914f137" />
+
 Ketika pengguna memilih menu 1, program akan meminta input:
 
 - Tanggal expired
@@ -188,25 +190,32 @@ Ketika pengguna memilih menu 1, program akan meminta input:
 
 Data yang dimasukkan akan ditempatkan sesuai posisi pada Binary Search Tree berdasarkan tanggal kedaluwarsa.
 
-Screenshot 2026-05-19 215044  
+<img width="317" height="291" alt="Screenshot 2026-05-26 193652" src="https://github.com/user-attachments/assets/1cd222d9-04dc-41a7-bf03-baa3c2bf3918" />
+
 Ketika pengguna memilih menu 2, program akan mencari data makanan berdasarkan tanggal expired yang dimasukkan. Jika data ditemukan, program akan menampilkan nama makanan tersebut.
 
-Screenshot 2026-05-19 215104  
+<img width="329" height="358" alt="Screenshot 2026-05-26 193754" src="https://github.com/user-attachments/assets/fda06cb9-86b3-426c-85ad-841791066ffb" />
+
 Ketika pengguna memilih menu 3, program akan menampilkan seluruh data makanan secara terurut menggunakan inorder traversal.
 
-Screenshot 2026-05-19 215131  
+<img width="457" height="274" alt="Screenshot 2026-05-26 193815" src="https://github.com/user-attachments/assets/1af11669-0022-4fb8-bae1-eeb67f2c22a3" />
+
 Ketika pengguna memilih menu 4, program akan menampilkan makanan yang memiliki tanggal expired paling kecil atau paling cepat kedaluwarsa.
 
-Screenshot 2026-05-19 215139  
+<img width="376" height="282" alt="Screenshot 2026-05-26 193826" src="https://github.com/user-attachments/assets/a73e52c5-3a00-4a29-98e0-d898c9c23b3a" />
+
 Ketika pengguna memilih menu 5, program akan menampilkan makanan yang memiliki tanggal expired paling besar atau paling lama kedaluwarsa.
 
-Screenshot 2026-05-19 215150  
+<img width="321" height="279" alt="Screenshot 2026-05-26 193836" src="https://github.com/user-attachments/assets/46844161-ceb4-402a-8b42-615c90a306dc" />
+
 Ketika pengguna memilih menu 6, program akan menampilkan jumlah seluruh makanan yang tersimpan di dalam BST.
 
-Screenshot 2026-05-19 215200  
+<img width="339" height="285" alt="Screenshot 2026-05-26 193845" src="https://github.com/user-attachments/assets/39dddc57-1f0b-4561-81a7-73c13f92d1ed" />
+ 
 Ketika pengguna memilih menu 7, program akan menampilkan tinggi pohon BST.
 
-Screenshot 2026-05-19 215210  
+<img width="318" height="258" alt="Screenshot 2026-05-26 193904" src="https://github.com/user-attachments/assets/4da5b5b5-4b8b-433e-a308-82a42912b2e7" />
+  
 Ketika pengguna memilih menu 8, program akan berhenti dan menampilkan pesan program selesai.
 
 ### Kesimpulan Output
