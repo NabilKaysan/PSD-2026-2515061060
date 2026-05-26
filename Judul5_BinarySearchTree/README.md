@@ -173,74 +173,50 @@ Digunakan untuk mengakhiri program.
 
 ## d. Penjelasan Output
 
-Misalkan pengguna memasukkan data berikut:
+Program akan menampilkan menu utama saat dijalankan  
+Saat program pertama kali dijalankan, pengguna akan melihat menu utama untuk mengelola data makanan pada Smart Fridge.
 
-| Tanggal Expired | Nama Makanan |
-|-----------------|--------------|
-| 20260530 | Susu UHT |
-| 20260605 | Roti Tawar |
-| 20260610 | Yogurt |
-| 20260701 | Keju Cheddar |
-| 20260815 | Saus Sambal |
+Screenshot 2026-05-19 214637
 
-BST yang terbentuk:
+### Penjelasan Output
 
-```text
-20260530
-      \
-    20260605
-          \
-        20260610
-              \
-            20260701
-                  \
-                20260815
-```
+Screenshot 2026-05-19 215009  
+Ketika pengguna memilih menu 1, program akan meminta input:
 
-Ketika pengguna memilih menu **Tampilkan Makanan**, program menjalankan traversal inorder sehingga menghasilkan output:
+- Tanggal expired
+- Nama makanan
 
-```text
-20260530 - Susu UHT
-20260605 - Roti Tawar
-20260610 - Yogurt
-20260701 - Keju Cheddar
-20260815 - Saus Sambal
-```
+Data yang dimasukkan akan ditempatkan sesuai posisi pada Binary Search Tree berdasarkan tanggal kedaluwarsa.
 
-Output tersebut menunjukkan bahwa BST berhasil mengurutkan data makanan berdasarkan tanggal kedaluwarsa dari yang paling cepat hingga yang paling lama.
+Screenshot 2026-05-19 215044  
+Ketika pengguna memilih menu 2, program akan mencari data makanan berdasarkan tanggal expired yang dimasukkan. Jika data ditemukan, program akan menampilkan nama makanan tersebut.
 
-Ketika pengguna memilih menu **Makanan Terdekat Kedaluwarsa**, program menjalankan fungsi `find_min()` sehingga menghasilkan output:
+Screenshot 2026-05-19 215104  
+Ketika pengguna memilih menu 3, program akan menampilkan seluruh data makanan secara terurut menggunakan inorder traversal.
 
-```text
-Makanan terdekat kedaluwarsa:
-20260530 - Susu UHT
-```
+Screenshot 2026-05-19 215131  
+Ketika pengguna memilih menu 4, program akan menampilkan makanan yang memiliki tanggal expired paling kecil atau paling cepat kedaluwarsa.
 
-Karena node tersebut merupakan nilai terkecil pada BST.
+Screenshot 2026-05-19 215139  
+Ketika pengguna memilih menu 5, program akan menampilkan makanan yang memiliki tanggal expired paling besar atau paling lama kedaluwarsa.
 
-Ketika pengguna memilih menu **Makanan Paling Awet**, program menjalankan fungsi `find_max()` sehingga menghasilkan output:
+Screenshot 2026-05-19 215150  
+Ketika pengguna memilih menu 6, program akan menampilkan jumlah seluruh makanan yang tersimpan di dalam BST.
 
-```text
-Makanan paling awet:
-20260815 - Saus Sambal
-```
+Screenshot 2026-05-19 215200  
+Ketika pengguna memilih menu 7, program akan menampilkan tinggi pohon BST.
 
-Karena node tersebut merupakan nilai terbesar pada BST.
+Screenshot 2026-05-19 215210  
+Ketika pengguna memilih menu 8, program akan berhenti dan menampilkan pesan program selesai.
 
-Ketika pengguna memilih menu **Jumlah Makanan**, program menghasilkan output:
+### Kesimpulan Output
 
-```text
-Jumlah makanan: 5
-```
+Output program menunjukkan bahwa sistem pengelolaan makanan pada Smart Fridge berjalan sesuai konsep Binary Search Tree (BST), di mana:
 
-Karena terdapat lima node yang tersimpan pada BST.
+- data makanan dimasukkan berdasarkan urutan tanggal kedaluwarsa,
+- data dapat dicari dengan cepat menggunakan key tertentu,
+- data dapat ditampilkan secara terurut melalui inorder traversal,
+- makanan yang paling cepat dan paling lama kedaluwarsa dapat diketahui dengan mudah,
+- serta jumlah data dan tinggi pohon BST dapat dihitung.
 
-## e. Kesimpulan
-
-Program Smart Fridge merupakan implementasi Binary Search Tree (BST) yang digunakan untuk mengelola data makanan berdasarkan tanggal kedaluwarsa. Dengan BST, data dapat tersimpan secara terurut sehingga pengguna dapat mengetahui makanan yang harus segera dikonsumsi maupun makanan yang masih aman disimpan dalam waktu yang lama.
-
-Melalui operasi *insert*, *search*, *inorder traversal*, *find_min*, *find_max*, *count_nodes*, dan *height*, program berhasil menunjukkan penerapan BST dalam menyelesaikan permasalahan nyata yang sering ditemui dalam kehidupan sehari-hari.
-
-## f. Link YouTube
-
-Link Video Presentasi : (Isi dengan link video presentasi Anda)
+## e. Link YouTube
