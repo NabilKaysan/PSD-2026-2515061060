@@ -348,6 +348,4 @@ Output program menunjukkan bahwa implementasi Hash Map Open Addressing dapat dig
 
 # e. Link YouTube
 
-https://youtube.com/
-
-(Ganti dengan link video demonstrasi program Anda)
+https://youtu.be/uq0GBHnIOWc
