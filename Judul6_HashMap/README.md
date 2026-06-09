@@ -293,30 +293,36 @@ Operasi utama yang tersedia pada program meliputi penambahan buku (insert), penc
 ### Contoh Tambah Buku
 
 Input:
+
 <img width="270" height="91" alt="Screenshot 2026-06-09 202918" src="https://github.com/user-attachments/assets/ca15d17d-1510-4838-9147-ff987b9fe21a" />
 
 
 Output:
+
 <img width="293" height="36" alt="Screenshot 2026-06-09 202924" src="https://github.com/user-attachments/assets/1fb37752-012d-4ea0-9235-f2c1beeb80a6" />
 
 
 ### Contoh Cari Buku
 
 Input:
+
 <img width="372" height="58" alt="Screenshot 2026-06-09 202951" src="https://github.com/user-attachments/assets/7faeb83a-eb93-47f6-9cc3-88a75c9ca199" />
 
 
 Output:
+
 <img width="286" height="101" alt="Screenshot 2026-06-09 202955" src="https://github.com/user-attachments/assets/43f928b2-64bc-4259-b760-9369da54b4d1" />
 
 
 ### Contoh Hapus Buku
 
 Input:
+
 <img width="401" height="47" alt="Screenshot 2026-06-09 203049" src="https://github.com/user-attachments/assets/369845c5-e17a-4c9e-aa2e-d30242d7aaa7" />
 
 
 Output:
+
 <img width="245" height="25" alt="Screenshot 2026-06-09 203054" src="https://github.com/user-attachments/assets/85af2a41-65ae-472a-915d-eb52dc2865d5" />
 
 
