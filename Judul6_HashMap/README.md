@@ -17,6 +17,7 @@ Operasi utama yang tersedia pada program meliputi penambahan buku (insert), penc
 # c. Source Code
 
 ## 1. Class SlotState
+<img width="1000" height="576" alt="tugas_akhir_judul6 py" src="https://github.com/user-attachments/assets/c1f2dba6-a2fa-456d-b25e-90d0cce31f95" />
 
 * `class SlotState:`
 
@@ -37,6 +38,7 @@ Operasi utama yang tersedia pada program meliputi penambahan buku (insert), penc
 ---
 
 ## 2. Class Entry
+<img width="1082" height="630" alt="tugas_akhir_judul6 py (1)" src="https://github.com/user-attachments/assets/412d8c5e-ad48-4b54-9d43-56d7fa77db05" />
 
 * `class Entry:`
 
@@ -57,6 +59,7 @@ Operasi utama yang tersedia pada program meliputi penambahan buku (insert), penc
 ---
 
 ## 3. Class HashMapOpenAddressing
+<img width="1364" height="630" alt="tugas_akhir_judul6 py (2)" src="https://github.com/user-attachments/assets/9d5989f7-980a-4aa3-ab09-e7a19408c90a" />
 
 * `class HashMapOpenAddressing:`
 
@@ -79,6 +82,7 @@ Operasi utama yang tersedia pada program meliputi penambahan buku (insert), penc
 ---
 
 ## 4. Fungsi hash_function()
+<img width="1364" height="522" alt="tugas_akhir_judul6 py (3)" src="https://github.com/user-attachments/assets/6eaae2e3-68eb-48a2-8db2-d755b764e5c4" />
 
 * `def hash_function(self, key):`
 
@@ -91,6 +95,7 @@ Operasi utama yang tersedia pada program meliputi penambahan buku (insert), penc
 ---
 
 ## 5. Fungsi insert()
+<img width="1364" height="1980" alt="tugas_akhir_judul6 py (4)" src="https://github.com/user-attachments/assets/7aa2d3aa-c56f-4cf3-b087-7e5598d6b922" />
 
 * `def insert(self, key, value):`
 
@@ -131,6 +136,7 @@ Operasi utama yang tersedia pada program meliputi penambahan buku (insert), penc
 ---
 
 ## 6. Fungsi search()
+<img width="1364" height="954" alt="tugas_akhir_judul6 py (5)" src="https://github.com/user-attachments/assets/23ce55a4-368d-4d56-aa26-ca06c93cd76a" />
 
 * `def search(self, key):`
 
@@ -147,6 +153,7 @@ Operasi utama yang tersedia pada program meliputi penambahan buku (insert), penc
 ---
 
 ## 7. Fungsi remove_key()
+<img width="1146" height="684" alt="tugas_akhir_judul6 py (6)" src="https://github.com/user-attachments/assets/836f9bda-d6fd-4219-8f87-1abaf8af50a9" />
 
 * `def remove_key(self, key):`
 
@@ -163,6 +170,7 @@ Operasi utama yang tersedia pada program meliputi penambahan buku (insert), penc
 ---
 
 ## 8. Fungsi display()
+<img width="1364" height="1332" alt="tugas_akhir_judul6 py (7)" src="https://github.com/user-attachments/assets/ee3a80fa-7eba-40db-828e-54eac41ec628" />
 
 * `def display(self):`
 
@@ -183,6 +191,7 @@ Operasi utama yang tersedia pada program meliputi penambahan buku (insert), penc
 ---
 
 ## 9. Fungsi main()
+<img width="1364" height="4086" alt="tugas_akhir_judul6 py (8)" src="https://github.com/user-attachments/assets/7201b10e-737a-40ab-9263-6d830067ed43" />
 
 * `def main():`
 
