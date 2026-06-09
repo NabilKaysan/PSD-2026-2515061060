@@ -288,59 +288,41 @@ Operasi utama yang tersedia pada program meliputi penambahan buku (insert), penc
 
 ### Program akan menampilkan menu utama
 
-```text
-===== MENU PERPUSTAKAAN =====
-1. Tambah Buku
-2. Cari Buku
-3. Hapus Buku
-4. Tampilkan Semua Buku
-5. Keluar
-```
+<img width="340" height="192" alt="Screenshot 2026-06-09 202803" src="https://github.com/user-attachments/assets/dd7e8837-a30f-4277-ac6f-03cd78caf952" />
+
 
 ### Contoh Tambah Buku
 
-```text
-Kode Buku : 101
-Judul Buku : Python Dasar
-Penulis : Andi
-```
+<img width="270" height="91" alt="Screenshot 2026-06-09 202918" src="https://github.com/user-attachments/assets/ca15d17d-1510-4838-9147-ff987b9fe21a" />
+
 
 Output:
 
-```text
-Buku berhasil ditambahkan.
-```
+<img width="293" height="36" alt="Screenshot 2026-06-09 202924" src="https://github.com/user-attachments/assets/1fb37752-012d-4ea0-9235-f2c1beeb80a6" />
+
 
 ### Contoh Cari Buku
 
 Input:
 
-```text
-Masukkan kode buku yang dicari: 101
-```
+<img width="372" height="58" alt="Screenshot 2026-06-09 202951" src="https://github.com/user-attachments/assets/7faeb83a-eb93-47f6-9cc3-88a75c9ca199" />
+
 
 Output:
+<img width="286" height="101" alt="Screenshot 2026-06-09 202955" src="https://github.com/user-attachments/assets/43f928b2-64bc-4259-b760-9369da54b4d1" />
 
-```text
-Buku ditemukan
-Kode Buku : 101
-Judul     : Python Dasar
-Penulis   : Andi
-```
 
 ### Contoh Hapus Buku
 
 Input:
 
-```text
-Masukkan kode buku yang akan dihapus: 101
-```
+<img width="401" height="47" alt="Screenshot 2026-06-09 203049" src="https://github.com/user-attachments/assets/369845c5-e17a-4c9e-aa2e-d30242d7aaa7" />
+
 
 Output:
 
-```text
-Buku berhasil dihapus
-```
+<img width="245" height="25" alt="Screenshot 2026-06-09 203054" src="https://github.com/user-attachments/assets/85af2a41-65ae-472a-915d-eb52dc2865d5" />
+
 
 ---
 
